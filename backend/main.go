@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
+	"local/server"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println("Starting server")
+	// start the gin router
+	server.NewServer()
 }
