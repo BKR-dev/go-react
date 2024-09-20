@@ -1,10 +1,11 @@
 package server
 
 import (
-    "net/http"
-    "github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin"
+	"net/http"
 )
 
+// newServer starts server
 func NewServer() {
 	// ...	// Create a new Gin router
 	router := gin.Default()
@@ -32,5 +33,5 @@ func NewServer() {
 	})
 
 	// Start the server
-	router.Run(":3001") // Default listens on port 3001 
+	router.Run(":3001") // Default listens on port 3001
 }

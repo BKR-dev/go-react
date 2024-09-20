@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Starting server")
+	fmt.Fprint("Starting server")
 	// start the gin router
 	server.NewServer()
 }
