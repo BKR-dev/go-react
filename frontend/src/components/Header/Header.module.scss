@@ -1,0 +1,41 @@
+.header {
+  background-color: red;
+
+  nav {
+    color: white;
+    background-color: gray;
+
+    ul {
+      logo {
+        float: left;
+        img {
+          width: 200px;
+        }
+      }
+
+      text-decoration: none;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+
+      li {
+        float: left;
+        nav-item {
+          display: block;
+          text-align: center;
+          padding: 20px 22px;
+          font-family: Arial, Helvetica, sans-serif;
+          a {
+            text-decoration: none;
+            list-style: none;
+
+            :hover {
+              background-color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
