@@ -1,4 +1,5 @@
 import "./styles/App.css";
+import "./styles/Body.scss";
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -15,9 +16,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return (
-      <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

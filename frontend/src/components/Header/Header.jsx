@@ -6,7 +6,7 @@ function Header() {
       <nav>
         <ul>
           <logo>
-            <a href="/">
+            <a href="#/">
               <img src="./fake-logo.png"></img>
             </a>
           </logo>
