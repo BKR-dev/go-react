@@ -7,9 +7,14 @@ function Header() {
         <ul>
           <li>
             <a href="#/">
-              <div class="logo"></div>
+              <div class="overlay">
+                <div class="logo">
+                  <img src="./fake-logo.png"></img>
+                </div>
+              </div>
             </a>
-
+          </li>
+          <li>
             <a href="#Cluster">
               <button>Cluster</button>
             </a>
