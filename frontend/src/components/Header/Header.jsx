@@ -5,30 +5,34 @@ function Header() {
     <header className={style["header"]}>
       <nav>
         <ul>
-          <logo>
+          <li>
             <a href="#/">
-              <img src="./fake-logo.png"></img>
+              <div class="overlay">
+                <div class="logo">
+                  <img src="./fake-logo.png"></img>
+                </div>
+              </div>
             </a>
-          </logo>
-          <li>
-            <nav-item>
-              <a href="#Cluster">Cluster</a>
-            </nav-item>
           </li>
           <li>
-            <nav-item>
-              <a href="#Deployments">Deployments</a>
-            </nav-item>
+            <a href="#Cluster">
+              <button>Cluster</button>
+            </a>
           </li>
           <li>
-            <nav-item>
-              <a href="#Applications">Applications</a>
-            </nav-item>
+            <a href="#Deployments">
+              <button>Deployments</button>
+            </a>
           </li>
           <li>
-            <nav-item>
-              <a href="#Networks">Networks</a>
-            </nav-item>
+            <a href="#Applications">
+              <button>Applications</button>
+            </a>
+          </li>
+          <li>
+            <a href="#Networks">
+              <button>Networks</button>
+            </a>
           </li>
         </ul>
       </nav>
