@@ -15,6 +15,11 @@ function Header() {
             </a>
           </li>
           <li>
+            <a href="#Dashboard">
+              <button>Dashboard</button>
+            </a>
+          </li>
+          <li>
             <a href="#Cluster">
               <button>Cluster</button>
             </a>
