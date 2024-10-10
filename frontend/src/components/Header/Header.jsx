@@ -7,8 +7,8 @@ function Header() {
         <ul>
           <li>
             <a href="#/">
-              <div class="overlay">
-                <div class="logo">
+              <div className="overlay">
+                <div className="logo">
                   <img src="./fake-logo.png"></img>
                 </div>
               </div>

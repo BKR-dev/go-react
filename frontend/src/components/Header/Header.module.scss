@@ -16,6 +16,8 @@
       li {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
         a {
           text-decoration: none;
@@ -24,24 +26,20 @@
             .logo {
               background-repeat: no-repeat;
               background-size: contain;
+              margin: 10px 20px 10px 10px;
               img {
               }
             }
           }
 
           button {
-            size: inherit;
-            float: left;
-            text-align: center;
-            display: block;
             background-color: white;
-            text-decoration: none;
-            list-style: none;
             border: solid;
             // border-color: black;
             border-radius: 10px;
-            border: 10px 10px 10px 10px;
-            margin: 10px 10px 10px 10px;
+            margin: 10px 20px 10px 20px;
+            padding: 0 10px 0 10px;
+            height: 3em;
 
             &:hover {
               border-color: rgb(255, 255, 255);
