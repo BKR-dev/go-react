@@ -2,11 +2,11 @@ import "./styles/App.css";
 import "./styles/Body.scss";
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
-import Dashboard from "./pages/Dashboard";
-import Cluster from "./pages/Cluster";
-import Deployments from "./pages/Deployments";
-import Applications from "./pages/Applications";
-import Networks from "./pages/Networks";
+import Dashboard from "./pages/Dasboard/Dashboard";
+import Cluster from "./pages/Cluster/Cluster";
+import Deployments from "./pages/Deployments/Deployments";
+import Applications from "./pages/Applications/Applications";
+import Networks from "./pages/Networks/Networks";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -26,7 +26,6 @@ const router = createBrowserRouter([
       </Layout>
     ),
   },
-
 
   {
     path: "/cluster",
@@ -61,7 +60,6 @@ const router = createBrowserRouter([
       </Layout>
     ),
   },
-
 ]);
 
 function App() {
