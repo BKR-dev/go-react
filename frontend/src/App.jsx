@@ -12,53 +12,35 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <Layout>
-        <Index />
-      </Layout>
-    ),
-  },
-  {
-    path: "/dashboard",
-    element: (
-      <Layout>
-        <Dashboard />
-      </Layout>
-    ),
-  },
+    element: <Layout />,
+    children: [
+      {
+        path: "",
+        element: <Index />,
+      },
+      {
+        path: "dashboard",
+        element: <Dashboard />,
+      },
 
-  {
-    path: "/cluster",
-    element: (
-      <Layout>
-        <Cluster />
-      </Layout>
-    ),
-  },
+      {
+        path: "cluster",
+        element: <Cluster />,
+      },
 
-  {
-    path: "/deployments",
-    element: (
-      <Layout>
-        <Deployments />
-      </Layout>
-    ),
-  },
-  {
-    path: "/applications",
-    element: (
-      <Layout>
-        <Applications />
-      </Layout>
-    ),
-  },
-  {
-    path: "/networks",
-    element: (
-      <Layout>
-        <Networks />
-      </Layout>
-    ),
+      {
+        path: "deployments",
+        element: <Deployments />,
+      },
+      {
+        path: "applications",
+        element: <Applications />,
+      },
+      {
+        path: "networks",
+        element: <Networks />,
+      },
+    ],
   },
 ]);
 

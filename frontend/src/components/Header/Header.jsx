@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./Header.module.scss";
 
 function Header() {
@@ -6,23 +7,23 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#/">
+            <Link to="/">
               <div className="overlay">
                 <div className="logo">
                   <img src="./fake-logo.png"></img>
                 </div>
               </div>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#Dashboard">
+            <Link to="dashboard">
               <button>Dashboard</button>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#Cluster">
+            <Link to="#Cluster">
               <button>Cluster</button>
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#Deployments">

@@ -1,7 +1,7 @@
 import styles from "./Dashboard.module.scss";
 
 function Dashboard() {
-  return "Dashboard";
+  return <p>Dashboard</p>;
 }
 
 export default Dashboard;

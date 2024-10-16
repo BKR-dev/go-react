@@ -1,6 +1,7 @@
-function Index(){
+import styles from "./Index.module.scss";
 
-  return "henlo"
+function Index() {
+  return "Index";
 }
 
-export default Index
+export default Index;
