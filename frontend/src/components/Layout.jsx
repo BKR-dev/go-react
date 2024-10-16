@@ -6,14 +6,14 @@ import SideBar from "./SideBar/SideBar";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <>
       <Header />
       <body>
         <SideBar />
         {children}
       </body>
       <Footer />
-    </div>
+      </>
   );
 };
 

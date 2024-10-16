@@ -1,8 +1,8 @@
 function Dashboard() {
 
 
-<div>Dashboard</div>
+return "Dashboard"
 
 }
 
-export default Dashboard
+export default Dashboard 
